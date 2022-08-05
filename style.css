@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 0.7rem 8rem;
+}
+
+#navbarSupportedContent {
+    margin-left: 10rem;
+}
+
+.primary {
+    color: #FF4800;
+}
+
+.primary1 {
+    background-color: #FF4800;
+}
+
+li a:hover {
+    background-color: #FF4800;
+}
+
+/* SECTION-1 */
+
+.section-1 .bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.section-1 h3 {
+    padding-top: 6rem;
+}
+
+.section-1 h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.section-1 form {
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 50px;
+}
+
+.section-1 input {
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0% !important;
+}
+
+.section-1 input::placeholder {
+    color: rgb(255, 102, 0);
+    font-size: 1.5rem;
+    /* font-weight: 10px; */
+}
+
+.section-1 button {
+    border-radius: 0%;
+}
+
+/* SECTION-2 */
+
+.section-2 button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50% 50%;
+}
+
+.section-2 .first {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.section-2 h1 {
+    font-weight: 20%;
+}
+
+/* SECTION-3 */
+
+.section-3 {
+    background-color: rgb(241 241 241);
+}
+
+.section-3 .form-group .form-control {
+    border-radius: 0%;
+}
+
+.section-3 .form-group button {
+    border-radius: 0%;
+}
+
+/* SECTION-4 */
+
+.section-4 a {
+    position: relative;
+}
+
+.section-4 a::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: rgb(224, 223, 223);
+}
+
+.section-4 a:hover {
+    color: #FF4800;
+    cursor: pointer;
+}
+
+/* SECTION-5 */
+
+.section-5 {
+    background-color: rgb(241 241 241);
+}
+
+.section-5 a {
+    border-radius: 0%;
+}
+
+.section-5 a:hover {
+    border: 0%;
+    background-color: #FF4800;
+}
+
+/* SECTION-6 */
+
+.section-6 .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-6 .part-1 {
+    background-color: rgb(241 241 241);
+    width: 30%;
+}
+
+.section-6 .part-2 {
+    background-color: rgb(241 241 241);
+    width: 30%;
+}
+
+.section-6 .part-3 {
+    background-color: rgb(241 241 241);
+    width: 30%;
+}
+
+.section-6 .part-1 sup {
+    font-size: 1.5rem;
+}
+
+.section-6 .part-2 sup {
+    font-size: 1.5rem;
+}
+
+.section-6 .part-3 sup {
+    font-size: 1.5rem;
+}
+
+.section-6 .part-1 sub {
+    font-size: 1rem;
+}
+
+.section-6 .part-2 sub {
+    font-size: 1rem;
+}
+
+.section-6 .part-3 sub {
+    font-size: 1rem;
+}
+
+.section-6 .part-1 a {
+    border-radius: 0%;
+    margin-left: 36%;
+}
+
+.section-6 .part-2 a {
+    border-radius: 0%;
+    margin-left: 36%;
+}
+
+.section-6 .part-3 a {
+    border-radius: 0%;
+    margin-left: 36%;
+}
+
+.section-6 .part-1 a:hover {
+    background-color: #FF4800;
+}
+
+.section-6 .part-2 a:hover {
+    background-color: #FF4800;
+}
+
+.section-6 .part-3 a:hover {
+    background-color: #FF4800;
+}
+
+/* SECTION-7 */
+
+.team img {
+    position: relative;
+    z-index: 1;
+    border-radius: 0%;
+}
+
+.team .team-text {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    left: 0;
+    border-bottom: 5px solid #FF4800;
+    transition: .5s;
+}
+
+.team:hover .team-text {
+    bottom: 100px;
+}
+
+.team .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -100px;
+    left: 0;
+    transition: .5s;
+}
+
+.team .team-social a {
+    margin-left: 10px;
+}
+
+.team:hover .team-social {
+    bottom: 0;
+}
+
+/* SECTION-8 */
+
+/* SECTION-9 */
+
+.part1 {
+    background-color: rgb(241 241 241);
+}
+
+.part2 {
+    background-color: rgb(241 241 241);
+}
+
+.contact-form .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section-9 .last:hover {
+    color: #FF4800;
+}
+
+/* FOOTER */
+
+.section-10 .fab {
+    color: #fff;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.section-10 a:hover .fab {
+    background-color: #fff;
+    color: black;
+}
+
+.section-10 input {
+    border-radius: 0%;
+}
+
+.section-10 .btn1 {
+    border-radius: 0%;
+    height: 74px;
+}
+
+.section-10 .btn1:hover {
+    background-color: #FF4800;
+}
+
+.section-10 .btn:focus {
+    background-color: #FF4800;
+}
